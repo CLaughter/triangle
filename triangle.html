@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle</title>
+  </head>
+  <body>
+    <script>
+      // Triangle
+      // Write a loop that makes seven calls to console.log to output
+      let item = "#";
+      let counter = 1;
+      console.log(item);
+
+      while (counter < 7) {
+        item += "#";
+        counter += 1;
+        console.log(item);
+      }
+
+      /* Refactored */
+      for (let line = "#"; line.length < 8; line += "#") console.log(line);
+    </script>
+  </body>
+</html>
